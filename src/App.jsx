@@ -14,7 +14,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/display" element={<DisplayNames />}></Route>
-          <Route path="/" element={<DisplayNames />}></Route>
           <Route path="/individual/:userId" element={<Individual />}></Route>
           <Route path="*" element={<NoMatch />}></Route>
         </Routes>
